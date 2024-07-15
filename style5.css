@@ -1,0 +1,67 @@
+/* div{ */
+    /* height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left:200px; */
+    /* transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function:ease-in;
+    transition-delay: 2s; */
+     /* transition:all 3s ease-in-out 1s;  */
+    /* transform:rotate(360deg);  */
+    /* rotate: x 180deg;*/
+    /* transform: scaley(2); */
+    /* transform: skew(45deg); */
+    /* animation-name: colorAnimation;
+    animation-duration: 2s; */
+    /* animation-timing-function: ease-in;  */
+    /* animation-delay: 0s;
+    animation-iteration-count: infinite; 
+    animation-direction:alternate; */
+/* }     */
+/* @keyframes colorAnimation {
+    0%{
+        left:0px;
+        background-color: yellow;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        left:400px;
+        background-color: chocolate;
+    } 
+}     */
+
+/* div:hover{ */
+    /* background-color: red;
+    color: white;
+    font-size: 20px; */
+    /* transform: scaley(2); */
+    /* transform: translate(100px,100px); */
+    /* transform: skew(180deg); */
+/* } */
+
+   /* background-color: pink;
+   transform: scaley(2); */
+   /* transform: translate(100px);*/
+   /* transform: skew(90deg); */
+.loader{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid aqua;
+    border-top: 20px solid yellow;
+    animation: loaderAnimation 2s ease-in 0s infinite normal;
+}
+@keyframes loaderAnimation{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
